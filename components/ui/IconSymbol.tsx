@@ -13,6 +13,17 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  'moon.stars.fill': 'nights_stay',
+  'calendar': 'calendar_today',
+  'gearshape.fill': 'settings',
+  'sparkles': 'auto_awesome',
+  'clock.fill': 'watch_later',
+  'star.fill': 'star',
+  'plus.circle.fill': 'add_circle',
+  'flame.fill': 'local_fire_department',
+  'music.note': 'music_note',
+  'figure.walk': 'directions_walk',
+  'checkmark.seal.fill': 'verified',
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
